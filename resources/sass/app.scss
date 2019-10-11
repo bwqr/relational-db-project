@@ -1,0 +1,71 @@
+@import "~bulma";
+@import "~material-components-web/dist/material-components-web.min.css";
+@import "form";
+@import "typography";
+html{
+  min-height: 100% !important;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+.centered-app {
+  &, .container {
+    height: 100%;
+  }
+  .container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  table {
+    min-width: 100%;
+  }
+
+  .title {
+    margin: 50px 0;
+  }
+
+  .columns.action {
+    justify-content: center;
+  }
+}
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.app-bar {
+  position: absolute;
+}
+
+// only apply this style if below top app bar
+.mdc-top-app-bar {
+  z-index: 7;
+}
+
+.add-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.mdc-drawer-app-content {
+  &,.view, .main-content {
+    //height: 100%;
+  }
+}

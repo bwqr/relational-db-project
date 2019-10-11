@@ -1,0 +1,14 @@
+OK• Only admins shall be able to add/update/delete papers, authors and topics.
+OK• Users shall be able to separately view all authors, papers and topics in the system.
+OK• Users shall be able to view all papers of an author.
+OK• Users shall be able to view SOTA result by topic and which paper this SOTA was
+achieved.
+OK• Users shall be able to view papers on a specific topic.
+OK• Users shall be able to rank all authors by the number of SOTA results they have.
+OK• Users shall be able to search a keyword and view the papers that contain this
+keyword in their title or abstract.
+OK• Users shall be able to view co-authors of an author. Co-author querying must be
+done with stored procedures. Parameters of this procedure will be author name
+and surname.
+OK• System must contain following triggers: When a new paper is added/updated/deleted,
+corresponding SOTA must be updated automatically, if necessary.
